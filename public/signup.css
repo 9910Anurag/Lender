@@ -102,6 +102,12 @@ main{
   border-radius: 10px;
   box-shadow: 4rem;
 }
+@media screen and (max-width:576px) {
+  .signup-form-wrap {
+    width: 335px;
+    height: 562px;
+  }
+}
 #form , #form-wrap{
   margin: 0;
   padding: 0;
