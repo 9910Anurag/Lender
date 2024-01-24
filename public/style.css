@@ -34,6 +34,7 @@
     border: 1px solid white;
     margin-right: 15px;
 }
+<<<<<<< HEAD
 @media screen and (max-width:576px) {
     .nav-li ul{
         background: black;
@@ -49,6 +50,24 @@
 @media screen and(max-width:576px) {
     .nav-li ul li{
 
+=======
+
+@media screen and (max-width:576px) {
+    .nav-li ul{
+        background: black;
+        color: white;
+        margin: 0;
+        border-radius: 15px;
+    }
+}
+.nav-li ul li{
+    display: inline;
+    padding-right: 22px;
+}
+@media screen and(max-width:576px) {
+    .nav-li ul li{
+
+>>>>>>> e97b85f (new updates for good looking)
     }
 }
 .nav-li ul li a{
@@ -104,5 +123,22 @@ main{
     background-size: cover;
     background-position: center;
 }
+<<<<<<< HEAD
 
 
+=======
+@media screen and (max-width:576px) {
+    .burger{
+        float: inline-end;
+    } .line{
+        width: 25px;
+        border-radius: 5.5px;
+        border: 0.5px solid white;
+        height: 5px;
+        background-color: black;
+    }
+}
+
+
+
+>>>>>>> e97b85f (new updates for good looking)
