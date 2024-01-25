@@ -1,6 +1,8 @@
 let burger = document.querySelector('.burger');
+let navli = document.querySelector('.nav-li');
 burger.addEventListener('click', ()=>{
-   burger.classList.toggle('.nav-li ul');
+   navli.classList.toggle('navliresp');
+   navli.classList.toggle('');
 });
 let image = document.getElementById('image');
         let images = ['image1.jpg', 'image2.jpg', 'image3.jpg', 'image4.jpg', 'image5.jpg']
