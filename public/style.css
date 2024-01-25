@@ -150,5 +150,13 @@ main{
         padding: 223px 0px;
     }
 }
+.footer{
+border: 2px solid black;
+} 
+h3{
+    text-align: center;
+    max-width: 100%;
+    margin-top: 10px;
+}
 
 
