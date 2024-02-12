@@ -1,7 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300&family=Tilt+Warp&display=swap');
-
-
 *{
     padding: 0;
     margin: 0;
@@ -10,7 +8,7 @@
 .nav{
     position: fixed;
     width: 100%;
-    height: 70px;
+    height: 80px;
     background-color: ghostwhite;
     z-index: 1;
 }
@@ -86,7 +84,9 @@
         height: auto;
     }
 }
-
+#burger img{
+    opacity: 0;
+}
 @media screen and (max-width:576px) {
     .burger {
     position: relative;
@@ -97,12 +97,11 @@
     margin-top: 20px;
     margin-right: 15px;
     }
-    .line {
-    width: 24px;
+    #togglebtn {
+    opacity: 100% !important;
+    width: 30px;
     border: 0.5px solid white;
-    height: 4px;
-    background-color: black;
-    color: black
+    height: 30px;
     }
 } 
 .main .title{
@@ -147,7 +146,7 @@ main{
 }
 @media screen and (max-width:576px) {
     main {
-        padding: 223px 0px;
+        padding: 95px 0px;
     }
 }
 .footer{

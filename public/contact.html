@@ -21,10 +21,8 @@
                     <li><a href="login.html">Login</a></li>
                 </ul>
             </div>
-            <div class="burger">
-                <div class="line"></div>
-                <div class="line"></div>
-                <div class="line"></div>
+            <div class="burger" id="burger">
+                <img src="menu.png" alt="" id="togglebtn">
             </div>
         </div>
     </header>
@@ -36,7 +34,18 @@
             <div class="login-form-wrap">
                 <h1>Contact Us</h1>
                 <form id="form">
-                    <h4>Under Process</h4> 
+                    <label for="fname">First Name</label>
+                    <input type="text">
+                    <label for="lname">Last Name</label>
+                    <input type="text">
+                    <label for="Phone">Phone Number</label>
+                    <input type="number">
+                    <label for="Email"> E-mail Id</label>
+                    <input type="email">
+                    <label for="Enquire"> Entre your Enquire Here !</label>
+                    <input type="text">
+                    <label for="btn">Submit</label>
+                    <input type="button" value="Submit" id="Submit-btn" onclick="SubmitEvent">
                 </form>
             </div>
         </div>
