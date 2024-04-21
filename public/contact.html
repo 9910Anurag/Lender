@@ -1,3 +1,4 @@
+<?php include 'form-handler.php'?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -33,19 +34,17 @@
             </div>
             <div class="login-form-wrap">
                 <h1>Contact Us</h1>
-                <form id="form">
-                    <label for="fname">First Name</label>
-                    <input type="text">
-                    <label for="lname">Last Name</label>
-                    <input type="text">
+                <form method="POST" id="form">
+                    <label for="name">Your Name</label>
+                    <input type="text" name="name">
                     <label for="Phone">Phone Number</label>
-                    <input type="number">
+                    <input type="number" name="phone">
                     <label for="Email"> E-mail Id</label>
-                    <input type="email">
+                    <input type="email" name="email">
                     <label for="Enquire"> Entre your Enquire Here !</label>
-                    <input type="text">
+                    <input type="text" name="enquerry">
                     <label for="btn">Submit</label>
-                    <input type="button" value="Submit" id="Submit-btn" onclick="SubmitEvent">
+                    <input type="button" name="submit" value="Submit" id="Submit-btn" onclick="SubmitEvent">
                 </form>
             </div>
         </div>
